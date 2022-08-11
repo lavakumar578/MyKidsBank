@@ -1,4 +1,4 @@
-package com.sdet34l1.genericUtlity;
+package com.mykidsbank.genericUtlity;
 /**
  * This class is used to get the path of the file.s
  * @author LAVA KUMAR

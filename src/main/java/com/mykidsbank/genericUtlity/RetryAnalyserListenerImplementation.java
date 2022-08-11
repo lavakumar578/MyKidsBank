@@ -1,4 +1,4 @@
-package com.sdet34l1.genericUtlity;
+package com.mykidsbank.genericUtlity;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
@@ -15,7 +15,7 @@ public class RetryAnalyserListenerImplementation implements IAnnotationTransform
 
 	@Override
 	public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
-		annotation.setRetryAnalyzer(com.sdet34l1.genericUtlity.RetryAnalyserImplementation.class);
+		annotation.setRetryAnalyzer(com.mykidsbank.genericUtlity.RetryAnalyserImplementation.class);
 		
 	}
 }

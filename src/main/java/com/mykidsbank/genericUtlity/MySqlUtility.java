@@ -1,4 +1,4 @@
-package com.sdet34l1.genericUtlity;
+package com.mykidsbank.genericUtlity;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
