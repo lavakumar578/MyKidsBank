@@ -1,4 +1,4 @@
-package com.interest;
+package com.automaticTransactions;
 
 import org.testng.annotations.Test;
 

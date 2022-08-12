@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-12T12:24:31 IST" name="Default suite" finished-at="2022-08-12T12:24:54 IST" duration-ms="23724">
+  <suite started-at="2022-08-12T15:11:10 IST" name="Default suite" finished-at="2022-08-12T15:11:34 IST" duration-ms="23284">
     <groups>
     </groups>
-    <test started-at="2022-08-12T12:24:31 IST" name="Default test" finished-at="2022-08-12T12:24:54 IST" duration-ms="23724">
-      <class name="com.interest.SetAutomaticInterestRateTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.interest.SetAutomaticInterestRateTest@28a6301f]" started-at="2022-08-12T12:24:27 IST" name="beforeSuite" finished-at="2022-08-12T12:24:31 IST" duration-ms="3216" status="PASS">
+    <test started-at="2022-08-12T15:11:10 IST" name="Default test" finished-at="2022-08-12T15:11:34 IST" duration-ms="23284">
+      <class name="com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest@3b7b05a8]" started-at="2022-08-12T15:11:08 IST" name="beforeSuite" finished-at="2022-08-12T15:11:10 IST" duration-ms="1887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.interest.SetAutomaticInterestRateTest@28a6301f]" started-at="2022-08-12T12:24:31 IST" name="beforeClassTest" finished-at="2022-08-12T12:24:42 IST" duration-ms="10919" status="PASS">
+        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest@3b7b05a8]" started-at="2022-08-12T15:11:10 IST" name="beforeClassTest" finished-at="2022-08-12T15:11:21 IST" duration-ms="10483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassTest -->
-        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.interest.SetAutomaticInterestRateTest@28a6301f]" started-at="2022-08-12T12:24:42 IST" name="beforeMethodTest" finished-at="2022-08-12T12:24:49 IST" duration-ms="7158" status="PASS">
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest@3b7b05a8]" started-at="2022-08-12T15:11:21 IST" name="beforeMethodTest" finished-at="2022-08-12T15:11:28 IST" duration-ms="6877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodTest -->
-        <test-method signature="setAutomaticInterestRate()[pri:0, instance:com.interest.SetAutomaticInterestRateTest@28a6301f]" started-at="2022-08-12T12:24:49 IST" name="setAutomaticInterestRate" finished-at="2022-08-12T12:24:53 IST" duration-ms="3786" status="PASS">
+        <test-method signature="setAutomationWithdrawal()[pri:0, instance:com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest@3b7b05a8]" started-at="2022-08-12T15:11:28 IST" name="setAutomationWithdrawal" finished-at="2022-08-12T15:11:32 IST" duration-ms="4136" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setAutomaticInterestRate -->
-        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.interest.SetAutomaticInterestRateTest@28a6301f]" started-at="2022-08-12T12:24:53 IST" name="afterMethodTest" finished-at="2022-08-12T12:24:54 IST" duration-ms="836" status="PASS">
+        </test-method> <!-- setAutomationWithdrawal -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest@3b7b05a8]" started-at="2022-08-12T15:11:32 IST" name="afterMethodTest" finished-at="2022-08-12T15:11:33 IST" duration-ms="732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTest -->
-        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.interest.SetAutomaticInterestRateTest@28a6301f]" started-at="2022-08-12T12:24:54 IST" name="afterClassTest" finished-at="2022-08-12T12:24:54 IST" duration-ms="374" status="PASS">
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest@3b7b05a8]" started-at="2022-08-12T15:11:33 IST" name="afterClassTest" finished-at="2022-08-12T15:11:34 IST" duration-ms="484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassTest -->
-        <test-method is-config="true" signature="afterSuiteTest()[pri:0, instance:com.interest.SetAutomaticInterestRateTest@28a6301f]" started-at="2022-08-12T12:24:54 IST" name="afterSuiteTest" finished-at="2022-08-12T12:24:55 IST" duration-ms="352" status="PASS">
+        <test-method is-config="true" signature="afterSuiteTest()[pri:0, instance:com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest@3b7b05a8]" started-at="2022-08-12T15:11:34 IST" name="afterSuiteTest" finished-at="2022-08-12T15:11:34 IST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuiteTest -->
-      </class> <!-- com.interest.SetAutomaticInterestRateTest -->
+      </class> <!-- com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

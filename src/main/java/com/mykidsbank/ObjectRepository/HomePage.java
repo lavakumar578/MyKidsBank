@@ -23,6 +23,10 @@ public class HomePage {
 	private WebElement makeWithdrawalIntoAccount;
 	@FindBy(xpath="//span[contains(text(),\"Set automatic interest for one or more accounts\")]")
 	private WebElement setAutomaticInterest;
+	@FindBy(xpath="//span[contains(text(),\"Set automatic deposit amount for one or more accounts\")]")
+	private WebElement setAutomaticDeposit;
+	@FindBy(xpath="//span[contains(text(),\"Set automatic withdrawal amount for one or more accounts\")]")
+	private WebElement setAutomaticWithdrawal;
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
@@ -50,5 +54,11 @@ public class HomePage {
 	}
 	public void setAutomaticInterest() {
 		this.setAutomaticInterest.click();
+	}
+	public void setAutomaticDeposit() {
+		this.setAutomaticDeposit.click();
+	}
+	public void setAutomationWithdrawal() {
+		this.setAutomaticWithdrawal.click();
 	}
 }
