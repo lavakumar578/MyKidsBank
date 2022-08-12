@@ -5,17 +5,18 @@
 	<listener class-name="com.mykidsbank.genericUtlity.ListenerImplementation"/>
 </listeners>
   <test thread-count="5" name="Test">
-    <classes>
-      <class name="com.deleteAccount.DeleteDepositAccountsTest"/>
+	<classes>
+	<class name="com.deleteAccount.DeleteDepositAccountsTest"/>
     <class name="com.createAccount.CreateNewDepositAccountTest"/>
     <class name="com.createAccount.ImportDepositAccountsTest"/>
 	 <class name="com.depositToAccount.MakeADepositAllAccountsTest"/>
 	  <class name="com.depositToAccount.MakeADepositTest"/>
 	  <class name="com.withdrawFromAccount.MakeAWithdrawFromAllAccountsTest"/>
 	  <class name="com.withdrawFromAccount.MakeAWithdrawTest"/>
-	  <class name="com.interest.SetAutomaticInterestRateTest"/>
+	  <class name="com.automaticTransactions.SetAutomaticInterestRateTest"/>
 	  <class name="com.automaticTransactions.SetAutomaticDepositToAllAccountsTest"/>
-	  <class name="com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest"/>
-    </classes>
+	  <class name="com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest"/>	
+	</classes>
+     
   </test> <!-- Test -->
 </suite> <!-- Suite -->
