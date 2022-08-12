@@ -2,6 +2,7 @@ package com.mykidsbank.genericUtlity;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -148,6 +149,21 @@ public class DriverUtility {
 			if(driver.getTitle().contains(partialText))
 			{
 				break;	
+			}
+		}
+	}
+	/**
+	 * This method is used to validate based on Text
+	 * @param driver
+	 * @param partialText
+	 */
+	public static void validateBasedOnText(WebDriver driver,String partialText,List<WebElement> elems,String msg)
+	{
+		for(WebElement elem:elems)
+		{
+			if(elem.getText().contains(partialText))
+			{
+				System.out.print(msg);
 			}
 		}
 	}

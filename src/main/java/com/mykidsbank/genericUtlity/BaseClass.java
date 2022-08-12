@@ -13,8 +13,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
-import com.vtiger.objectRepository.HomePage;
-import com.vtiger.objectRepository.LoginPage;
+import com.mykidsbank.ObjectRepository.HomePage;
+import com.mykidsbank.ObjectRepository.LoginPage;
+import com.mykidsbank.ObjectRepository.MyKidsBankPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 /**
@@ -27,6 +28,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseClass {
 	public LoginPage loginPage;
 	public HomePage homePage;
+	public MyKidsBankPage myKidsBankPage;
 	public WebDriver driver;
 	public JavaLangUtility javaLangUtility;
 	public long longTimeOut;
@@ -35,6 +37,7 @@ public class BaseClass {
 	public String password;
 	public String url;
 	public String browser;
+	public String bankerLogin;
 	public DriverUtility driverUtility; 
 	public static WebDriver staticdriver;
 	
@@ -67,7 +70,8 @@ public class BaseClass {
 	@BeforeMethod(groups="baseclass")
 	public void beforeMethodTest()
 	{
-		loginPage.loginAction(username,password );
+		myKidsBankPage.bankerLogin(bankerLogin);
+		loginPage.login(username,password );
 	}
 	/**
 	 * This annotation is used to perform logout
@@ -75,7 +79,7 @@ public class BaseClass {
 	@AfterMethod(groups="baseclass")
 	public void afterMethodTest()
 	{
-		homePage.signout(driver, driverUtility);
+		homePage.signout();
 	}
 	/**
 	 * This annotation is used to get common data from propertyfile
@@ -94,6 +98,7 @@ public class BaseClass {
 		password=PropertiesUtility.getDataFromProperty("password");
 		url=PropertiesUtility.getDataFromProperty("url");
 		browser=PropertiesUtility.getDataFromProperty("browser");
+		bankerLogin=PropertiesUtility.getDataFromProperty("bankerLogin");
 //		browser=System.getProperty("BROWSER");
 //		url=System.getProperty("URL");
 //		username=System.getProperty("USERNAME");
@@ -121,6 +126,7 @@ public class BaseClass {
 		}
 		
 		staticdriver=driver;
+		myKidsBankPage=new MyKidsBankPage(driver);
 		loginPage=new LoginPage(driver);
 		homePage=new HomePage(driver);
 		driverUtility = new DriverUtility(driver);

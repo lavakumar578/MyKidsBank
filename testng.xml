@@ -2,11 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 <listeners>
-	<listener class-name="com.sdet34l1.genericUtlity.ListenerImplementation"/>
+	<listener class-name="com.mykidsbank.genericUtlity.ListenerImplementation"/>
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-     <class name="com.vtiger.documentTest.CreateDocumentTest"/>
+      <class name="com.mykidsbank.DeleteDepositAccountsTest"/>
+    <class name="com.mykidsbank.CreateNewDepositAccountTest"/>
+    <class name="com.mykidsbank.ImportDepositAccountsTest"/>
+	 <class name="com.mykidsbank.MakeADepositAllAccountsTest"/>
+	  <class name="com.mykidsbank.MakeADepositTest"/>
+	  <class name="com.mykidsbank.MakeAWithdrawFromAllAccountsTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -6,9 +6,8 @@ package com.mykidsbank.genericUtlity;
  */
 public interface ILocation {
 
-	String PROPERTYPATH="./src/test/resources/commonData.properties";
-	String EXCELPATH="./src/test/resources/TestData.xlsx";
-	String DATABASEPATH="./src/test/resources/databaseData.properties";
-	String DATABASEURL="jdbc:mysql://localhost:3306/";
-	String EXCELPATHFORDATABASE="./src/test/resources/databaseTest.xlsx";
+	String PROPERTYPATH="./src/test/resources/resources/commondata.properties";
+	String EXCELPATH="./src/test/resources/resources/testData.xlsx";
+	String ACCOUNTSPATH="D:\\TEST YANTRA\\MyKidsBank\\automation\\MyKidsBank\\src\\test\\resources\\resources\\Accounts.csv";
+	
 }

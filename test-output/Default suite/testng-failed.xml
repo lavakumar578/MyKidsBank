@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vtiger.campaignTest.CreateCampaignTest">
+      <class name="com.mykidsbank.MakeAWithdrawFromAllAccountsTest">
         <methods>
-          <include name="beforeSuite"/>
           <include name="afterSuiteTest"/>
+          <include name="beforeClassTest"/>
           <include name="afterClassTest"/>
-          <include name="createCampaignTest"/>
           <include name="afterMethodTest"/>
           <include name="beforeMethodTest"/>
-          <include name="beforeClassTest"/>
+          <include name="beforeSuite"/>
+          <include name="makeAWithdrawFromAllAccounts"/>
         </methods>
-      </class> <!-- com.vtiger.campaignTest.CreateCampaignTest -->
+      </class> <!-- com.mykidsbank.MakeAWithdrawFromAllAccountsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
