@@ -9,18 +9,20 @@ public class HomePage {
 
 	@FindBy(xpath="//span[text()=\"LOG OFF\"]")
 	private WebElement signoutBtn;
-	@FindBy(xpath = "//span[text()=\"► Create a new deposit account\"]")
+	@FindBy(xpath="//span[contains(text(),\"Create a new deposit account\")]")
 	private WebElement createDepositAccountLink;
-	@FindBy(xpath="//span[text()=\"► Import deposit accounts\"]")
+	@FindBy(xpath="//span[contains(text(),\"Import deposit accounts\")]")
 	private WebElement importDepositAccountsLink;
-	@FindBy(xpath="//span[text()=\"► Delete one or more accounts\"]")
+	@FindBy(xpath="//span[contains(text(),\"Delete one or more accounts\")]")
 	private WebElement deleteDepositAccountsLink;
 	@FindBy(xpath="//span[text()=\"Update\"]")
 	private WebElement updateBtn;
-	@FindBy(xpath="//span[text()=\"► Make a deposit into one or more accounts\"]")
+	@FindBy(xpath="//span[contains(text(),\"Make a deposit into one or more accounts\")]")
 	private WebElement makeDepositIntoAccount;
-	@FindBy(xpath="//span[text()=\"► Make a withdrawal from one or more accounts\"]")
+	@FindBy(xpath="//span[contains(text(),\"Make a withdrawal from one or more accounts\")]")
 	private WebElement makeWithdrawalIntoAccount;
+	@FindBy(xpath="//span[contains(text(),\"Set automatic interest for one or more accounts\")]")
+	private WebElement setAutomaticInterest;
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
@@ -45,5 +47,8 @@ public class HomePage {
 	}
 	public void makeAWithdrawalIntoAccount() {
 		this.makeWithdrawalIntoAccount.click();
+	}
+	public void setAutomaticInterest() {
+		this.setAutomaticInterest.click();
 	}
 }

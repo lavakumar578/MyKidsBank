@@ -13,6 +13,7 @@
 	  <class name="com.depositToAccount.MakeADepositTest"/>
 	  <class name="com.withdrawFromAccount.MakeAWithdrawFromAllAccountsTest"/>
 	  <class name="com.withdrawFromAccount.MakeAWithdrawTest"/>
+	  <class name="com.interest.SetAutomaticInterestRateTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
