@@ -6,12 +6,13 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.mykidsbank.DeleteDepositAccountsTest"/>
-    <class name="com.mykidsbank.CreateNewDepositAccountTest"/>
-    <class name="com.mykidsbank.ImportDepositAccountsTest"/>
-	 <class name="com.mykidsbank.MakeADepositAllAccountsTest"/>
-	  <class name="com.mykidsbank.MakeADepositTest"/>
-	  <class name="com.mykidsbank.MakeAWithdrawFromAllAccountsTest"/>
+      <class name="com.deleteAccount.DeleteDepositAccountsTest"/>
+    <class name="com.createAccount.CreateNewDepositAccountTest"/>
+    <class name="com.createAccount.ImportDepositAccountsTest"/>
+	 <class name="com.depositToAccount.MakeADepositAllAccountsTest"/>
+	  <class name="com.depositToAccount.MakeADepositTest"/>
+	  <class name="com.withdrawFromAccount.MakeAWithdrawFromAllAccountsTest"/>
+	  <class name="com.withdrawFromAccount.MakeAWithdrawTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

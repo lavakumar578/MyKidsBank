@@ -1,151 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="10" total="16" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-12T11:03:05 IST" name="Suite" finished-at="2022-08-12T11:05:07 IST" duration-ms="121635">
+  <suite started-at="2022-08-12T11:34:20 IST" name="Default suite" finished-at="2022-08-12T11:35:05 IST" duration-ms="44960">
     <groups>
     </groups>
-    <test started-at="2022-08-12T11:03:05 IST" name="Test" finished-at="2022-08-12T11:05:07 IST" duration-ms="121635">
-      <class name="com.mykidsbank.MakeAWithdrawFromAllAccountsTest">
-        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.mykidsbank.MakeAWithdrawFromAllAccountsTest@1f38957]" started-at="2022-08-12T11:04:47 IST" name="beforeClassTest" finished-at="2022-08-12T11:04:54 IST" duration-ms="6648" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassTest -->
-        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.mykidsbank.MakeAWithdrawFromAllAccountsTest@1f38957]" started-at="2022-08-12T11:04:54 IST" name="beforeMethodTest" finished-at="2022-08-12T11:05:01 IST" duration-ms="6827" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodTest -->
-        <test-method signature="makeAWithdrawFromAllAccounts()[pri:6, instance:com.mykidsbank.MakeAWithdrawFromAllAccountsTest@1f38957]" started-at="2022-08-12T11:05:01 IST" name="makeAWithdrawFromAllAccounts" finished-at="2022-08-12T11:05:04 IST" duration-ms="3044" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- makeAWithdrawFromAllAccounts -->
-        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.mykidsbank.MakeAWithdrawFromAllAccountsTest@1f38957]" started-at="2022-08-12T11:05:04 IST" name="afterMethodTest" finished-at="2022-08-12T11:05:05 IST" duration-ms="701" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodTest -->
-        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.mykidsbank.MakeAWithdrawFromAllAccountsTest@1f38957]" started-at="2022-08-12T11:05:05 IST" name="afterClassTest" finished-at="2022-08-12T11:05:07 IST" duration-ms="2329" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassTest -->
-      </class> <!-- com.mykidsbank.MakeAWithdrawFromAllAccountsTest -->
-      <class name="com.mykidsbank.MakeADepositAllAccountsTest">
-        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.mykidsbank.MakeADepositAllAccountsTest@7a2e0858]" started-at="2022-08-12T11:04:16 IST" name="beforeClassTest" finished-at="2022-08-12T11:04:20 IST" duration-ms="4303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassTest -->
-        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.mykidsbank.MakeADepositAllAccountsTest@7a2e0858]" started-at="2022-08-12T11:04:20 IST" name="beforeMethodTest" finished-at="2022-08-12T11:04:27 IST" duration-ms="6935" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodTest -->
-        <test-method signature="makeADepositIntoAllAccount()[pri:4, instance:com.mykidsbank.MakeADepositAllAccountsTest@7a2e0858]" started-at="2022-08-12T11:04:27 IST" name="makeADepositIntoAllAccount" finished-at="2022-08-12T11:04:30 IST" duration-ms="3147" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- makeADepositIntoAllAccount -->
-        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.mykidsbank.MakeADepositAllAccountsTest@7a2e0858]" started-at="2022-08-12T11:04:30 IST" name="afterMethodTest" finished-at="2022-08-12T11:04:31 IST" duration-ms="785" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodTest -->
-        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.mykidsbank.MakeADepositAllAccountsTest@7a2e0858]" started-at="2022-08-12T11:04:31 IST" name="afterClassTest" finished-at="2022-08-12T11:04:32 IST" duration-ms="316" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassTest -->
-      </class> <!-- com.mykidsbank.MakeADepositAllAccountsTest -->
-      <class name="com.mykidsbank.CreateNewDepositAccountTest">
-        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.mykidsbank.CreateNewDepositAccountTest@630d1b2f]" started-at="2022-08-12T11:03:39 IST" name="beforeClassTest" finished-at="2022-08-12T11:03:46 IST" duration-ms="6961" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassTest -->
-        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.mykidsbank.CreateNewDepositAccountTest@630d1b2f]" started-at="2022-08-12T11:03:46 IST" name="beforeMethodTest" finished-at="2022-08-12T11:03:53 IST" duration-ms="7450" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodTest -->
-        <test-method signature="createNewDepositAccount()[pri:3, instance:com.mykidsbank.CreateNewDepositAccountTest@630d1b2f]" started-at="2022-08-12T11:03:53 IST" name="createNewDepositAccount" finished-at="2022-08-12T11:03:56 IST" duration-ms="2915" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewDepositAccount -->
-        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.mykidsbank.CreateNewDepositAccountTest@630d1b2f]" started-at="2022-08-12T11:03:56 IST" name="afterMethodTest" finished-at="2022-08-12T11:03:57 IST" duration-ms="782" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodTest -->
-        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.mykidsbank.CreateNewDepositAccountTest@630d1b2f]" started-at="2022-08-12T11:03:57 IST" name="afterClassTest" finished-at="2022-08-12T11:03:57 IST" duration-ms="388" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassTest -->
-      </class> <!-- com.mykidsbank.CreateNewDepositAccountTest -->
-      <class name="com.mykidsbank.ImportDepositAccountsTest">
-        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.mykidsbank.ImportDepositAccountsTest@746b18fd]" started-at="2022-08-12T11:03:57 IST" name="beforeClassTest" finished-at="2022-08-12T11:04:03 IST" duration-ms="5831" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassTest -->
-        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.mykidsbank.ImportDepositAccountsTest@746b18fd]" started-at="2022-08-12T11:04:03 IST" name="beforeMethodTest" finished-at="2022-08-12T11:04:10 IST" duration-ms="7035" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodTest -->
-        <test-method signature="importDepositAccounts()[pri:2, instance:com.mykidsbank.ImportDepositAccountsTest@746b18fd]" started-at="2022-08-12T11:04:10 IST" name="importDepositAccounts" finished-at="2022-08-12T11:04:14 IST" duration-ms="3863" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- importDepositAccounts -->
-        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.mykidsbank.ImportDepositAccountsTest@746b18fd]" started-at="2022-08-12T11:04:14 IST" name="afterMethodTest" finished-at="2022-08-12T11:04:16 IST" duration-ms="1409" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodTest -->
-        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.mykidsbank.ImportDepositAccountsTest@746b18fd]" started-at="2022-08-12T11:04:16 IST" name="afterClassTest" finished-at="2022-08-12T11:04:16 IST" duration-ms="467" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassTest -->
-      </class> <!-- com.mykidsbank.ImportDepositAccountsTest -->
-      <class name="com.mykidsbank.DeleteDepositAccountsTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.mykidsbank.DeleteDepositAccountsTest@4a3be6a5]" started-at="2022-08-12T11:03:03 IST" name="beforeSuite" finished-at="2022-08-12T11:03:05 IST" duration-ms="2062" status="PASS">
+    <test started-at="2022-08-12T11:34:20 IST" name="Default test" finished-at="2022-08-12T11:35:05 IST" duration-ms="44960">
+      <class name="com.withdrawFromAccount.MakeAWithdrawTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.withdrawFromAccount.MakeAWithdrawTest@2c306a57]" started-at="2022-08-12T11:34:17 IST" name="beforeSuite" finished-at="2022-08-12T11:34:20 IST" duration-ms="2888" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.mykidsbank.DeleteDepositAccountsTest@4a3be6a5]" started-at="2022-08-12T11:03:08 IST" name="beforeClassTest" finished-at="2022-08-12T11:03:25 IST" duration-ms="17943" status="PASS">
+        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.withdrawFromAccount.MakeAWithdrawTest@2c306a57]" started-at="2022-08-12T11:34:20 IST" name="beforeClassTest" finished-at="2022-08-12T11:34:48 IST" duration-ms="27950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassTest -->
-        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.mykidsbank.DeleteDepositAccountsTest@4a3be6a5]" started-at="2022-08-12T11:03:26 IST" name="beforeMethodTest" finished-at="2022-08-12T11:03:34 IST" duration-ms="8372" status="PASS">
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.withdrawFromAccount.MakeAWithdrawTest@2c306a57]" started-at="2022-08-12T11:34:48 IST" name="beforeMethodTest" finished-at="2022-08-12T11:34:59 IST" duration-ms="11341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodTest -->
-        <test-method signature="deleteDepositAccounts()[pri:1, instance:com.mykidsbank.DeleteDepositAccountsTest@4a3be6a5]" started-at="2022-08-12T11:03:34 IST" name="deleteDepositAccounts" finished-at="2022-08-12T11:03:37 IST" duration-ms="2879" status="PASS">
+        <test-method signature="makeAWithdraw()[pri:0, instance:com.withdrawFromAccount.MakeAWithdrawTest@2c306a57]" started-at="2022-08-12T11:35:00 IST" name="makeAWithdraw" finished-at="2022-08-12T11:35:03 IST" duration-ms="3290" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteDepositAccounts -->
-        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.mykidsbank.DeleteDepositAccountsTest@4a3be6a5]" started-at="2022-08-12T11:03:37 IST" name="afterMethodTest" finished-at="2022-08-12T11:03:38 IST" duration-ms="764" status="PASS">
+        </test-method> <!-- makeAWithdraw -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.withdrawFromAccount.MakeAWithdrawTest@2c306a57]" started-at="2022-08-12T11:35:03 IST" name="afterMethodTest" finished-at="2022-08-12T11:35:04 IST" duration-ms="734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTest -->
-        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.mykidsbank.DeleteDepositAccountsTest@4a3be6a5]" started-at="2022-08-12T11:03:38 IST" name="afterClassTest" finished-at="2022-08-12T11:03:39 IST" duration-ms="928" status="PASS">
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.withdrawFromAccount.MakeAWithdrawTest@2c306a57]" started-at="2022-08-12T11:35:04 IST" name="afterClassTest" finished-at="2022-08-12T11:35:05 IST" duration-ms="926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassTest -->
-        <test-method is-config="true" signature="afterSuiteTest()[pri:0, instance:com.mykidsbank.DeleteDepositAccountsTest@4a3be6a5]" started-at="2022-08-12T11:05:08 IST" name="afterSuiteTest" finished-at="2022-08-12T11:05:10 IST" duration-ms="1451" status="PASS">
+        <test-method is-config="true" signature="afterSuiteTest()[pri:0, instance:com.withdrawFromAccount.MakeAWithdrawTest@2c306a57]" started-at="2022-08-12T11:35:05 IST" name="afterSuiteTest" finished-at="2022-08-12T11:35:06 IST" duration-ms="817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuiteTest -->
-      </class> <!-- com.mykidsbank.DeleteDepositAccountsTest -->
-      <class name="com.mykidsbank.MakeADepositTest">
-        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.mykidsbank.MakeADepositTest@aac3f4e]" started-at="2022-08-12T11:04:32 IST" name="beforeClassTest" finished-at="2022-08-12T11:04:37 IST" duration-ms="5204" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassTest -->
-        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.mykidsbank.MakeADepositTest@aac3f4e]" started-at="2022-08-12T11:04:37 IST" name="beforeMethodTest" finished-at="2022-08-12T11:04:44 IST" duration-ms="7203" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodTest -->
-        <test-method signature="makeADepsoitToSpecificAccount()[pri:5, instance:com.mykidsbank.MakeADepositTest@aac3f4e]" started-at="2022-08-12T11:04:44 IST" name="makeADepsoitToSpecificAccount" finished-at="2022-08-12T11:04:46 IST" duration-ms="2015" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- makeADepsoitToSpecificAccount -->
-        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.mykidsbank.MakeADepositTest@aac3f4e]" started-at="2022-08-12T11:04:46 IST" name="afterMethodTest" finished-at="2022-08-12T11:04:47 IST" duration-ms="764" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodTest -->
-        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.mykidsbank.MakeADepositTest@aac3f4e]" started-at="2022-08-12T11:04:47 IST" name="afterClassTest" finished-at="2022-08-12T11:04:47 IST" duration-ms="361" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassTest -->
-      </class> <!-- com.mykidsbank.MakeADepositTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.withdrawFromAccount.MakeAWithdrawTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
