@@ -5,7 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class DeleteDepositAccountsPage {
+import com.mykidsbank.genericUtlity.BaseClass;
+import com.mykidsbank.genericUtlity.DriverUtility;
+import com.mykidsbank.genericUtlity.XlsxUtility;
+
+public class DeleteDepositAccountsPage extends BaseClass {
 
 	@FindBy(xpath="//span[contains(text(),\"select\")]")
 	private WebElement selectAllBtn;

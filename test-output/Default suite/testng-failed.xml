@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest">
+      <class name="com.deleteAccount.DeleteDepositAccountsTest">
         <methods>
           <include name="afterSuiteTest"/>
           <include name="beforeClassTest"/>
           <include name="afterClassTest"/>
           <include name="afterMethodTest"/>
-          <include name="setAutomationWithdrawal"/>
           <include name="beforeMethodTest"/>
           <include name="beforeSuite"/>
+          <include name="deleteDepositAccounts"/>
         </methods>
-      </class> <!-- com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest -->
+      </class> <!-- com.deleteAccount.DeleteDepositAccountsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
