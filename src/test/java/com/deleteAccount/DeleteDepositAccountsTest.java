@@ -12,7 +12,7 @@ public class DeleteDepositAccountsTest extends BaseClass {
 		homePage.deleteDepositAccounts();
 		DeleteDepositAccountsPage deleteDepositAccountsPage=new DeleteDepositAccountsPage(driver);
 		ConfirmDeleteOneOrMoreAccountsPage confirmDeleteOneOrMoreAccountsPage=new ConfirmDeleteOneOrMoreAccountsPage(driver);
-		deleteDepositAccountsPage.deleteAllSelectedAccounts();
+		deleteDepositAccountsPage.deleteAllSelectedAccounts(driver);
 		confirmDeleteOneOrMoreAccountsPage.confirmDelete();
 	}
 }

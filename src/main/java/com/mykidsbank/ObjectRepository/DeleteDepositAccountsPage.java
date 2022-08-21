@@ -1,5 +1,7 @@
 package com.mykidsbank.ObjectRepository;
 
+import java.util.Properties;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -20,7 +22,9 @@ public class DeleteDepositAccountsPage extends BaseClass {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void deleteAllSelectedAccounts() {
+	public void deleteAllSelectedAccounts(WebDriver driver) {
+		driverUtility.explicitWait(driver, longTimeOut);
+		driverUtility.waitUntilElementVisibilityOf(selectAllBtn);
 		this.selectAllBtn.click();
 		this.submitBtn.click();
 	}
