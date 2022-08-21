@@ -69,7 +69,7 @@ public class DriverUtility {
 	 */
 	public static void waitTillPageLoad(WebDriver driver,long longTimeOut)
 	{
-		driver.manage().timeouts().implicitlyWait(longTimeOut,TimeUnit.MINUTES);
+		driver.manage().timeouts().implicitlyWait(longTimeOut,TimeUnit.SECONDS);
 	}
 	/**
 	 * This method is to provide maximize and impliciltyWait
