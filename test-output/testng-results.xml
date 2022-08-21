@@ -1,41 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="18" total="28" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-21T11:12:25 IST" name="Default suite" finished-at="2022-08-21T11:12:43 IST" duration-ms="18643">
+  <suite started-at="2022-08-21T11:27:30 IST" name="Suite" finished-at="2022-08-21T11:30:45 IST" duration-ms="195808">
     <groups>
     </groups>
-    <test started-at="2022-08-21T11:12:25 IST" name="Default test" finished-at="2022-08-21T11:12:43 IST" duration-ms="18643">
-      <class name="com.deleteAccount.DeleteDepositAccountsTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.deleteAccount.DeleteDepositAccountsTest@d8948cd]" started-at="2022-08-21T11:12:22 IST" name="beforeSuite" finished-at="2022-08-21T11:12:25 IST" duration-ms="2251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.deleteAccount.DeleteDepositAccountsTest@d8948cd]" started-at="2022-08-21T11:12:25 IST" name="beforeClassTest" finished-at="2022-08-21T11:12:33 IST" duration-ms="8141" status="PASS">
+    <test started-at="2022-08-21T11:27:30 IST" name="Test" finished-at="2022-08-21T11:30:45 IST" duration-ms="195808">
+      <class name="com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest">
+        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest@53e3a87a]" started-at="2022-08-21T11:30:32 IST" name="beforeClassTest" finished-at="2022-08-21T11:30:35 IST" duration-ms="3799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassTest -->
-        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.deleteAccount.DeleteDepositAccountsTest@d8948cd]" started-at="2022-08-21T11:12:33 IST" name="beforeMethodTest" finished-at="2022-08-21T11:12:39 IST" duration-ms="5670" status="PASS">
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest@53e3a87a]" started-at="2022-08-21T11:30:35 IST" name="beforeMethodTest" finished-at="2022-08-21T11:30:42 IST" duration-ms="6319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodTest -->
-        <test-method signature="deleteDepositAccounts()[pri:1, instance:com.deleteAccount.DeleteDepositAccountsTest@d8948cd]" started-at="2022-08-21T11:12:39 IST" name="deleteDepositAccounts" finished-at="2022-08-21T11:12:42 IST" duration-ms="3278" status="PASS">
+        <test-method signature="setAutomationWithdrawal()[pri:10, instance:com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest@53e3a87a]" started-at="2022-08-21T11:30:42 IST" name="setAutomationWithdrawal" finished-at="2022-08-21T11:30:44 IST" duration-ms="2746" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteDepositAccounts -->
-        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.deleteAccount.DeleteDepositAccountsTest@d8948cd]" started-at="2022-08-21T11:12:42 IST" name="afterMethodTest" finished-at="2022-08-21T11:12:43 IST" duration-ms="648" status="PASS">
+        </test-method> <!-- setAutomationWithdrawal -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest@53e3a87a]" started-at="2022-08-21T11:30:44 IST" name="afterMethodTest" finished-at="2022-08-21T11:30:45 IST" duration-ms="649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodTest -->
-        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.deleteAccount.DeleteDepositAccountsTest@d8948cd]" started-at="2022-08-21T11:12:43 IST" name="afterClassTest" finished-at="2022-08-21T11:12:43 IST" duration-ms="389" status="PASS">
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest@53e3a87a]" started-at="2022-08-21T11:30:45 IST" name="afterClassTest" finished-at="2022-08-21T11:30:45 IST" duration-ms="415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassTest -->
-        <test-method is-config="true" signature="afterSuiteTest()[pri:0, instance:com.deleteAccount.DeleteDepositAccountsTest@d8948cd]" started-at="2022-08-21T11:12:43 IST" name="afterSuiteTest" finished-at="2022-08-21T11:12:44 IST" duration-ms="347" status="PASS">
+      </class> <!-- com.automaticTransactions.SetAutomationWithdrawalToAllAccountsTest -->
+      <class name="com.deleteAccount.DeleteDepositAccountsTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.deleteAccount.DeleteDepositAccountsTest@6edcd0d8]" started-at="2022-08-21T11:27:27 IST" name="beforeSuite" finished-at="2022-08-21T11:27:30 IST" duration-ms="2899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.deleteAccount.DeleteDepositAccountsTest@6edcd0d8]" started-at="2022-08-21T11:27:31 IST" name="beforeClassTest" finished-at="2022-08-21T11:27:54 IST" duration-ms="23199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.deleteAccount.DeleteDepositAccountsTest@6edcd0d8]" started-at="2022-08-21T11:27:54 IST" name="beforeMethodTest" finished-at="2022-08-21T11:28:03 IST" duration-ms="9227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="deleteDepositAccounts()[pri:1, instance:com.deleteAccount.DeleteDepositAccountsTest@6edcd0d8]" started-at="2022-08-21T11:28:04 IST" name="deleteDepositAccounts" finished-at="2022-08-21T11:28:09 IST" duration-ms="4845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDepositAccounts -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.deleteAccount.DeleteDepositAccountsTest@6edcd0d8]" started-at="2022-08-21T11:28:09 IST" name="afterMethodTest" finished-at="2022-08-21T11:28:09 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.deleteAccount.DeleteDepositAccountsTest@6edcd0d8]" started-at="2022-08-21T11:28:09 IST" name="afterClassTest" finished-at="2022-08-21T11:28:10 IST" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+        <test-method is-config="true" signature="afterSuiteTest()[pri:0, instance:com.deleteAccount.DeleteDepositAccountsTest@6edcd0d8]" started-at="2022-08-21T11:30:47 IST" name="afterSuiteTest" finished-at="2022-08-21T11:30:47 IST" duration-ms="738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuiteTest -->
       </class> <!-- com.deleteAccount.DeleteDepositAccountsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.withdrawFromAccount.MakeAWithdrawFromAllAccountsTest">
+        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.withdrawFromAccount.MakeAWithdrawFromAllAccountsTest@4e2916c3]" started-at="2022-08-21T11:29:34 IST" name="beforeClassTest" finished-at="2022-08-21T11:29:38 IST" duration-ms="3780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.withdrawFromAccount.MakeAWithdrawFromAllAccountsTest@4e2916c3]" started-at="2022-08-21T11:29:38 IST" name="beforeMethodTest" finished-at="2022-08-21T11:29:45 IST" duration-ms="6633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="makeAWithdrawFromAllAccounts()[pri:6, instance:com.withdrawFromAccount.MakeAWithdrawFromAllAccountsTest@4e2916c3]" started-at="2022-08-21T11:29:45 IST" name="makeAWithdrawFromAllAccounts" finished-at="2022-08-21T11:29:48 IST" duration-ms="2648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeAWithdrawFromAllAccounts -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.withdrawFromAccount.MakeAWithdrawFromAllAccountsTest@4e2916c3]" started-at="2022-08-21T11:29:48 IST" name="afterMethodTest" finished-at="2022-08-21T11:29:48 IST" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.withdrawFromAccount.MakeAWithdrawFromAllAccountsTest@4e2916c3]" started-at="2022-08-21T11:29:48 IST" name="afterClassTest" finished-at="2022-08-21T11:29:49 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.withdrawFromAccount.MakeAWithdrawFromAllAccountsTest -->
+      <class name="com.depositToAccount.MakeADepositAllAccountsTest">
+        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.depositToAccount.MakeADepositAllAccountsTest@5e8604bf]" started-at="2022-08-21T11:29:06 IST" name="beforeClassTest" finished-at="2022-08-21T11:29:11 IST" duration-ms="5436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.depositToAccount.MakeADepositAllAccountsTest@5e8604bf]" started-at="2022-08-21T11:29:11 IST" name="beforeMethodTest" finished-at="2022-08-21T11:29:18 IST" duration-ms="6748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="makeADepositIntoAllAccount()[pri:4, instance:com.depositToAccount.MakeADepositAllAccountsTest@5e8604bf]" started-at="2022-08-21T11:29:18 IST" name="makeADepositIntoAllAccount" finished-at="2022-08-21T11:29:20 IST" duration-ms="2630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeADepositIntoAllAccount -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.depositToAccount.MakeADepositAllAccountsTest@5e8604bf]" started-at="2022-08-21T11:29:20 IST" name="afterMethodTest" finished-at="2022-08-21T11:29:21 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.depositToAccount.MakeADepositAllAccountsTest@5e8604bf]" started-at="2022-08-21T11:29:21 IST" name="afterClassTest" finished-at="2022-08-21T11:29:22 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.depositToAccount.MakeADepositAllAccountsTest -->
+      <class name="com.createAccount.ImportDepositAccountsTest">
+        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.createAccount.ImportDepositAccountsTest@4a6c18ad]" started-at="2022-08-21T11:28:47 IST" name="beforeClassTest" finished-at="2022-08-21T11:28:54 IST" duration-ms="6412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.createAccount.ImportDepositAccountsTest@4a6c18ad]" started-at="2022-08-21T11:28:54 IST" name="beforeMethodTest" finished-at="2022-08-21T11:28:59 IST" duration-ms="5752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="importDepositAccounts()[pri:3, instance:com.createAccount.ImportDepositAccountsTest@4a6c18ad]" started-at="2022-08-21T11:29:00 IST" name="importDepositAccounts" finished-at="2022-08-21T11:29:04 IST" duration-ms="4628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importDepositAccounts -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.createAccount.ImportDepositAccountsTest@4a6c18ad]" started-at="2022-08-21T11:29:04 IST" name="afterMethodTest" finished-at="2022-08-21T11:29:05 IST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.createAccount.ImportDepositAccountsTest@4a6c18ad]" started-at="2022-08-21T11:29:05 IST" name="afterClassTest" finished-at="2022-08-21T11:29:06 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.createAccount.ImportDepositAccountsTest -->
+      <class name="com.depositToAccount.MakeADepositTest">
+        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.depositToAccount.MakeADepositTest@20095ab4]" started-at="2022-08-21T11:29:22 IST" name="beforeClassTest" finished-at="2022-08-21T11:29:25 IST" duration-ms="3340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.depositToAccount.MakeADepositTest@20095ab4]" started-at="2022-08-21T11:29:25 IST" name="beforeMethodTest" finished-at="2022-08-21T11:29:31 IST" duration-ms="6511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="makeADepsoitToSpecificAccount()[pri:5, instance:com.depositToAccount.MakeADepositTest@20095ab4]" started-at="2022-08-21T11:29:31 IST" name="makeADepsoitToSpecificAccount" finished-at="2022-08-21T11:29:33 IST" duration-ms="1831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeADepsoitToSpecificAccount -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.depositToAccount.MakeADepositTest@20095ab4]" started-at="2022-08-21T11:29:33 IST" name="afterMethodTest" finished-at="2022-08-21T11:29:34 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.depositToAccount.MakeADepositTest@20095ab4]" started-at="2022-08-21T11:29:34 IST" name="afterClassTest" finished-at="2022-08-21T11:29:34 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.depositToAccount.MakeADepositTest -->
+      <class name="com.withdrawFromAccount.MakeAWithdrawTest">
+        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.withdrawFromAccount.MakeAWithdrawTest@64aad6db]" started-at="2022-08-21T11:29:49 IST" name="beforeClassTest" finished-at="2022-08-21T11:29:52 IST" duration-ms="3525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.withdrawFromAccount.MakeAWithdrawTest@64aad6db]" started-at="2022-08-21T11:29:52 IST" name="beforeMethodTest" finished-at="2022-08-21T11:30:00 IST" duration-ms="8294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="makeAWithdraw()[pri:7, instance:com.withdrawFromAccount.MakeAWithdrawTest@64aad6db]" started-at="2022-08-21T11:30:00 IST" name="makeAWithdraw" finished-at="2022-08-21T11:30:02 IST" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeAWithdraw -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.withdrawFromAccount.MakeAWithdrawTest@64aad6db]" started-at="2022-08-21T11:30:02 IST" name="afterMethodTest" finished-at="2022-08-21T11:30:03 IST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.withdrawFromAccount.MakeAWithdrawTest@64aad6db]" started-at="2022-08-21T11:30:03 IST" name="afterClassTest" finished-at="2022-08-21T11:30:03 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.withdrawFromAccount.MakeAWithdrawTest -->
+      <class name="com.automaticTransactions.SetAutomaticDepositToAllAccountsTest">
+        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.automaticTransactions.SetAutomaticDepositToAllAccountsTest@4dafba3e]" started-at="2022-08-21T11:30:17 IST" name="beforeClassTest" finished-at="2022-08-21T11:30:21 IST" duration-ms="3849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.automaticTransactions.SetAutomaticDepositToAllAccountsTest@4dafba3e]" started-at="2022-08-21T11:30:21 IST" name="beforeMethodTest" finished-at="2022-08-21T11:30:27 IST" duration-ms="6539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="setAutomaticDepositToAllAccounts()[pri:9, instance:com.automaticTransactions.SetAutomaticDepositToAllAccountsTest@4dafba3e]" started-at="2022-08-21T11:30:27 IST" name="setAutomaticDepositToAllAccounts" finished-at="2022-08-21T11:30:30 IST" duration-ms="3009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAutomaticDepositToAllAccounts -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.automaticTransactions.SetAutomaticDepositToAllAccountsTest@4dafba3e]" started-at="2022-08-21T11:30:30 IST" name="afterMethodTest" finished-at="2022-08-21T11:30:31 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.automaticTransactions.SetAutomaticDepositToAllAccountsTest@4dafba3e]" started-at="2022-08-21T11:30:31 IST" name="afterClassTest" finished-at="2022-08-21T11:30:32 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.automaticTransactions.SetAutomaticDepositToAllAccountsTest -->
+      <class name="com.automaticTransactions.SetAutomaticInterestRateTest">
+        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.automaticTransactions.SetAutomaticInterestRateTest@2822c6ff]" started-at="2022-08-21T11:30:03 IST" name="beforeClassTest" finished-at="2022-08-21T11:30:07 IST" duration-ms="3903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.automaticTransactions.SetAutomaticInterestRateTest@2822c6ff]" started-at="2022-08-21T11:30:07 IST" name="beforeMethodTest" finished-at="2022-08-21T11:30:13 IST" duration-ms="5752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="setAutomaticInterestRate()[pri:8, instance:com.automaticTransactions.SetAutomaticInterestRateTest@2822c6ff]" started-at="2022-08-21T11:30:13 IST" name="setAutomaticInterestRate" finished-at="2022-08-21T11:30:16 IST" duration-ms="2903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAutomaticInterestRate -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.automaticTransactions.SetAutomaticInterestRateTest@2822c6ff]" started-at="2022-08-21T11:30:16 IST" name="afterMethodTest" finished-at="2022-08-21T11:30:17 IST" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.automaticTransactions.SetAutomaticInterestRateTest@2822c6ff]" started-at="2022-08-21T11:30:17 IST" name="afterClassTest" finished-at="2022-08-21T11:30:17 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.automaticTransactions.SetAutomaticInterestRateTest -->
+      <class name="com.createAccount.CreateNewDepositAccountTest">
+        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.createAccount.CreateNewDepositAccountTest@6fd1660]" started-at="2022-08-21T11:28:10 IST" name="beforeClassTest" finished-at="2022-08-21T11:28:34 IST" duration-ms="24062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.createAccount.CreateNewDepositAccountTest@6fd1660]" started-at="2022-08-21T11:28:34 IST" name="beforeMethodTest" finished-at="2022-08-21T11:28:40 IST" duration-ms="6035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="createNewDepositAccount()[pri:2, instance:com.createAccount.CreateNewDepositAccountTest@6fd1660]" started-at="2022-08-21T11:28:40 IST" name="createNewDepositAccount" finished-at="2022-08-21T11:28:44 IST" duration-ms="3643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDepositAccount -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.createAccount.CreateNewDepositAccountTest@6fd1660]" started-at="2022-08-21T11:28:44 IST" name="afterMethodTest" finished-at="2022-08-21T11:28:45 IST" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.createAccount.CreateNewDepositAccountTest@6fd1660]" started-at="2022-08-21T11:28:45 IST" name="afterClassTest" finished-at="2022-08-21T11:28:47 IST" duration-ms="1919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.createAccount.CreateNewDepositAccountTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
