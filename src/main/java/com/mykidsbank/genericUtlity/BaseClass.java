@@ -49,7 +49,7 @@ public class BaseClass {
 	public void beforeSuite() throws IOException
 	{
 		PropertiesUtility.openPropertyFile(ILocation.PROPERTYPATH);
-		XlsxUtility.openExcel(ILocation.EXCELPATH);		
+		XlsxUtility.openExcel(PropertiesUtility.getDataFromProperty("excelpath"));		
 	}
 	/**
 	 * This annotation is used to close the excel file
@@ -61,7 +61,7 @@ public class BaseClass {
 	@AfterSuite(groups="baseclass")
 	public void afterSuiteTest() throws IOException
 	{
-		XlsxUtility.setDataToExcel(ILocation.EXCELPATH);
+		XlsxUtility.setDataToExcel(PropertiesUtility.getDataFromProperty("excelpath"));
 		XlsxUtility.closeExcel();
 	}
 	/**

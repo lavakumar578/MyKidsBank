@@ -10,7 +10,7 @@ import com.mykidsbank.genericUtlity.XlsxUtility;
 
 public class SetAutomationWithdrawalToAllAccountsTest extends BaseClass {
 @Test(priority = 10)
-public void setAutomationWithdrawal() {
+public void setAutomationWithdrawalTest() {
 	homePage.setAutomationWithdrawal();
 	SetAutomaticWithdrawalPage setAutomaticWithdrawalPage=new SetAutomaticWithdrawalPage(driver);
 	SetAutomationWithdrawalConfirmPage setAutomationWithdrawalConfirmPage=new SetAutomationWithdrawalConfirmPage(driver);

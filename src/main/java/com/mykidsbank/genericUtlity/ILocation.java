@@ -1,6 +1,6 @@
 package com.mykidsbank.genericUtlity;
 /**
- * This class is used to get the path of the file.s
+ * This class is used to get the path of the file
  * @author LAVA KUMAR
  *
  */

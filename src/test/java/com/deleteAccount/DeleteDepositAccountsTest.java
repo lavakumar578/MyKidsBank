@@ -8,7 +8,7 @@ import com.mykidsbank.genericUtlity.BaseClass;
 
 public class DeleteDepositAccountsTest extends BaseClass {
 	@Test(priority = 1)
-	public void deleteDepositAccounts() {
+	public void deleteDepositAccountsTest() {
 		homePage.deleteDepositAccounts();
 		DeleteDepositAccountsPage deleteDepositAccountsPage=new DeleteDepositAccountsPage(driver);
 		ConfirmDeleteOneOrMoreAccountsPage confirmDeleteOneOrMoreAccountsPage=new ConfirmDeleteOneOrMoreAccountsPage(driver);

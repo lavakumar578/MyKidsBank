@@ -10,7 +10,7 @@ import com.mykidsbank.genericUtlity.XlsxUtility;
 
 public class MakeADepositAllAccountsTest extends BaseClass{
 @Test(priority = 4)
-public void makeADepositIntoAllAccount() {
+public void makeADepositIntoAllAccountTest() {
 	homePage.makeADepositIntoAccount();
 	MakeADepositIntoOneOrMoreAccountsPage makeADepositIntoOneOrMoreAccountsPage=new MakeADepositIntoOneOrMoreAccountsPage(driver);
 	DepositConfirmPage depositConfirmPage=new DepositConfirmPage(driver);

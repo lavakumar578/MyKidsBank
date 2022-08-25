@@ -11,7 +11,7 @@ import com.mykidsbank.genericUtlity.XlsxUtility;
 
 public class CreateNewDepositAccountTest extends BaseClass{
 @Test(priority = 2)
-public void createNewDepositAccount() {
+public void createNewDepositAccountTest() {
 	DriverUtility driverUtility=new DriverUtility(driver);
 	homePage.createDepositAccount();
 	

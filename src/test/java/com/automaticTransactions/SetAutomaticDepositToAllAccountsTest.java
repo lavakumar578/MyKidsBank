@@ -9,7 +9,7 @@ import com.mykidsbank.genericUtlity.XlsxUtility;
 
 public class SetAutomaticDepositToAllAccountsTest extends BaseClass {
 @Test(priority = 9)
-public void setAutomaticDepositToAllAccounts() {
+public void setAutomaticDepositToAllAccountsTest() {
 	homePage.setAutomaticDeposit();
 	SetAutomaticDepositPage setAutomaticDepositPage=new SetAutomaticDepositPage(driver);
 	DepositConfirmPage depositConfirmPage=new DepositConfirmPage(driver);

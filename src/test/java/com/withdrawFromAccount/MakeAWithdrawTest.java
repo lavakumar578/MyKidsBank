@@ -9,7 +9,7 @@ import com.mykidsbank.genericUtlity.XlsxUtility;
 
 public class MakeAWithdrawTest extends BaseClass{
 @Test(priority = 7)
-public void makeAWithdraw() {
+public void makeAWithdrawTest() {
 	homePage.makeAWithdrawalIntoAccount();
 	MakeAWithdrawalFromOneOrMoreAccountsPage makeAWithdrawalFromOneOrMoreAccountsPage=new MakeAWithdrawalFromOneOrMoreAccountsPage(driver);
 	WithdrawalConfirmPage withdrawalConfirmPage=new WithdrawalConfirmPage(driver);

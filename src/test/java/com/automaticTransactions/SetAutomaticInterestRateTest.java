@@ -9,7 +9,7 @@ import com.mykidsbank.genericUtlity.XlsxUtility;
 
 public class SetAutomaticInterestRateTest extends BaseClass {
 	@Test(priority = 8)
-	public void setAutomaticInterestRate() {
+	public void setAutomaticInterestRateTest() {
 		homePage.setAutomaticInterest();
 		SetAutomaticInterestPage setAutomaticInterestPage=new SetAutomaticInterestPage(driver);
 		SetAutomaticInterestRateConfirmPage setAutomaticInterestRateConfirmPage=new SetAutomaticInterestRateConfirmPage(driver);
